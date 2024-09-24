@@ -1,4 +1,4 @@
-public class Student {
+ class Student {
 
     // Fields to store student details
     String name;
@@ -10,7 +10,7 @@ public class Student {
         System.out.println("Name: " + name);
         System.out.println("Roll No: " + rollNo);
         System.out.println("Department: " + department);
-        System.out.println("--------------------------");
+
     }
 
     public static void main(String[] args) {
