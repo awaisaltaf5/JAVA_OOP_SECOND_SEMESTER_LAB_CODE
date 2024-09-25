@@ -1,4 +1,6 @@
- class Student {
+package Task8_student;
+
+class Student {
 
     // Fields to store student details
     String name;

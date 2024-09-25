@@ -1,15 +1,7 @@
+package Task10_Rectangle;
+
 import java.util.Scanner;
-class Rectangle{
-    double length;  double width;
-      public double Area(double a,double b){
-        length=a;
-        width=b;
 
-        return length*width;
-
-      }
-
-}
 public class Task10{
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
