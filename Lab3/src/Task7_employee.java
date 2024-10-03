@@ -1,7 +1,7 @@
 package Lab3.src;
 import java.util.Scanner;
 
-public class Task5_employee {
+public class Task7_employee {
     String name;int code;int date,month,year;
     int jdate,jmonth,jyear;
     int tenure;
@@ -41,10 +41,11 @@ year=y;
     }
 
     public static void main(String[] args) {
+
         String name;int code;int date,month,year;
         int jdate,jmonth,jyear;
         System.out.println("PLease enter year information in this Format: 05/09/2024");
-        Task5_employee e1=new Task5_employee();
+        Task7_employee e1=new Task7_employee();
         e1.data("Muhammad Awais Altaf",1234,15,6,2024);
         e1.check();
 

@@ -22,7 +22,5 @@ public class Main {
         //car car2=new car();
         //car car3=new car();
         input.close();
-
-
     }
 }
