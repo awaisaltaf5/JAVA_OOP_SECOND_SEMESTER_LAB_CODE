@@ -12,8 +12,9 @@ public class Task4_car {
     public void carModel(int m){
         carModel=m;
     }
-    public void carCompany(String c){
+    public void carCompnay(String c){
         carCompany=c;
+
     }
     public void display(){
         System.out.println("Your car Name:"+carName+"\nCar Colour:"+carColour+"\nCar Model:"+carModel+"\nCar Company:"+carCompany);
@@ -42,7 +43,7 @@ public class Task4_car {
         input.nextLine();// This is the essential addition
 
         System.out.print("Enter the Car Company: ");
-        car1.carCompany(input.nextLine());
+        car1.carCompnay(input.nextLine());
 
 
         car1.display();
